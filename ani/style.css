@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{background-color: rgb(225, 225, 225);
+height: 400px;}
+.header-main{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-logo{
+    text-align: center;
+    margin-top: -1px;
+    letter-spacing: .5rem;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.sit{
+    
+    text-align: center;
+    font-size: 50px;
+    margin-top: -39px;;
+}
+.text-button{
+    border: 4px groove black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: -20px;
+}
+#button{
+    color: white;
+    background: linear-gradient(rgb(13, 12, 12), rgb(122, 120, 120));
+    width: 130px;
+    height: 40px;
+    border-style: groove;
+}
+.after-header{
+    height:480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 196, 196);
+}
+#full{
+    width: 980px;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+    margin-top: -130px;
+    margin-bottom: 20px;
+}
+.starting-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(170, 168, 168);
+}
+.title-lorem{
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    opacity: 0.6;
+}
+.wrapper{
+    height: 400px;
+    width: 700px;
+    
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px;
+    
+   
+}
+
+#solo{
+    border-radius: 10px;
+    background-color: rgb(19, 19, 87);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+#naruto{
+    background-color: rgb(103, 25, 25);
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+#tokyo{
+    background: rgb(100, 68, 9); 
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+#tokyo:hover, #naruto:hover, #solo:hover{
+    color: white;
+    background-color: rgb(107, 136, 64);
+    border-radius: 60%;
+}
+#slayer, #attack, #hell, #jjk{
+   
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+#slayer:hover, #attack:hover, #hell:hover, #jjk:hover{
+     border: 3px solid lightgray;
+}
+.images{padding: 20px;
+width: 450px;}
+.new-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(137, 136, 136);
+}
+.random-text{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    text-decoration: underline;
+    background-color: rgb(43, 43, 16);
+    color: red;
+}
+#button:hover{
+    border-radius: 10px;
+    background: linear-gradient(rgb(97, 34, 34), rgb(84, 30, 10));
+}
+#button:focus{
+    background: midnightblue;
+}
+#button:active{
+    background-color: darkred;
+}
+.options{
+    height: 110px;
+    text-align: center;
+    margin-top: -19.5px;
+    background-color: rgb(110, 110, 110);
+}
+.butto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.manga{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgb(94, 94, 94);
+}
+#jagan, #saka, #tokyo-g, #on, #uzu, #dragon{
+    width: 200px;
+    height: 270px;
+    border: 5px groove gold;
+    position: static;
+}
+.manga-text{
+    width: 450px;
+    text-align: center;
+}
+.comic{
+    display: flex;
+    margin-top: 40px;
+    gap: 2rem;
+}
+#jagan:hover, #saka:hover, #tokyo-g:hover{
+    border: 5px groove blue;
+    border-radius: 90%;
+    width: 250px;
+    height: 320px;
+}
+#saka:hover{
+    border: 5px groove orangered;
+}
+#tokyo-g:hover{
+    border: 5px groove darkred;
+}
+.myfav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(69, 68, 68);
+}
+.fav-ani{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+}
+.fav-text{
+    text-align: center;
+}
+#on, #uzu, #dragon{
+    width: 200px;
+    height: 250px;
+    border-style: inset;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.253);
+}
+#on:hover, #uzu:hover, #dragon:hover{
+    border-style: outset;
+}
+#on:active, #uzu:active, #dragon:active{
+    border-style: double;
+    color: rgb(105, 94, 31);
+}
+form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 3rem;
+   padding: 50px;
+   background-color: rgb(44, 44, 44);
+}
+input{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(165, 165, 229);
+}
+input:valid{
+    border: 2px solid green;
+}
+input:invalid{
+    border: 2px solid red;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
